@@ -16,7 +16,7 @@ pipeline {
 
             steps {
 
-                git 'https://github.com/Rampriya1993/secondpipeline.git'
+                git branch: 'main', url: 'https://github.com/Rampriya1993/secondpipeline.git'
 
             }
 
